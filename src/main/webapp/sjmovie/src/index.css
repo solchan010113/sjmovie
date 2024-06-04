@@ -1,47 +1,53 @@
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 100;
-  src: url("./assets/fonts/NotoSansKR-Light.ttf") format("truetype");
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 100;
+    src: url("./assets/fonts/NotoSansKR-Light.ttf");
 }
 
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/NotoSansKR-Regular.ttf") format("truetype");
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/NotoSansKR-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 500;
-  src: url("./assets/fonts/NotoSansKR-Medium.ttf") format("truetype");
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./assets/fonts/NotoSansKR-Medium.ttf");
 }
 
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: bold;
-  src: url("./assets/fonts/NotoSansKR-Bold.ttf") format("truetype");
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: bold;
+    src: url("./assets/fonts/NotoSansKR-Bold.ttf");
 }
 
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./assets/fonts/NotoSansKR-Thin.ttf") format("truetype");
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts/NotoSansKR-Thin.ttf");
 }
+
 body {
-  margin: 0;
-  font-family: "Noto Sans KR", serif;
-  font-weight: 500;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+
+
+}
+
+#root {
+    font-family: "Noto Sans KR", serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -130,13 +136,14 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -149,30 +156,36 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
+
 body {
-  line-height: 1;
+    line-height: 1;
 }
+
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
+
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+    content: "";
+    content: none;
 }
+
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -259,13 +272,14 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -278,31 +292,37 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
+
 body {
-  line-height: 1;
+    line-height: 1;
 }
+
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
+
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+    content: "";
+    content: none;
 }
+
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: aliceblue;
 }

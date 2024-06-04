@@ -1,12 +1,11 @@
-import Header from './Header';
-import NavBar from './NavBar';
+import Header from './Header'
+import '../assets/css/layout/default.scss'
 
-export default function DefaultLayout({children}) {
-  return(
+export default function DefaultLayout({ children }) {
+  return (
     <>
-      <Header/>
-      <NavBar/>
-      {children}
+      <Header />
+      <div className="container">{children}</div>
     </>
   )
 }
