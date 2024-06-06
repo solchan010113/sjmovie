@@ -10,6 +10,7 @@ export const LoginPage = lazy(() => import('./views/SignMain'))
 
 export default function Routes() {
   return useRoutes([
+    { index: true, element: <MainPage /> },
     {
       element: (
         <DefaultLayout>
@@ -17,7 +18,6 @@ export default function Routes() {
         </DefaultLayout>
       ),
       children: [
-        { index: true, element: <MainPage /> },
         {
           path: 'movie',
           element: <MoviePage />,
