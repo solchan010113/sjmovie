@@ -3,6 +3,7 @@ header {
   background-image: linear-gradient(to right, #222831, #393E46);
   opacity: 1;
   width: 100%;
+  z-index: 100;
 
   .header-inner {
     padding: 0 10px;

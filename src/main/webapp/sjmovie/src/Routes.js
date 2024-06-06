@@ -9,6 +9,7 @@ export const TicketingPage = lazy(() => import('./views/ticketing/TicketingHome'
 
 export default function Routes() {
   return useRoutes([
+    { index: true, element: <MainPage /> },
     {
       element: (
         <DefaultLayout>
@@ -16,7 +17,6 @@ export default function Routes() {
         </DefaultLayout>
       ),
       children: [
-        { index: true, element: <MainPage /> },
         {
           path: 'movie',
           element: <MoviePage />,
