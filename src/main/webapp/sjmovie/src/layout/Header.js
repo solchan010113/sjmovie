@@ -45,7 +45,7 @@ export default function Header() {
               <SearchIcon />
             </IconButton>
           </Paper>
-          <Link>로그인</Link>
+          <Link to="login">로그인</Link>
           <Link>회원가입</Link>
         </div>
       </div>
