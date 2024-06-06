@@ -33,12 +33,6 @@
     src: url("./assets/fonts/NotoSansKR-Thin.ttf");
 }
 
-body {
-    margin: 0;
-
-
-}
-
 #root {
     font-family: "Noto Sans KR", serif;
     font-weight: 500;
@@ -296,7 +290,9 @@ section {
 }
 
 body {
+    margin: 0;
     line-height: 1;
+    background: #393E46;
 }
 
 ol,
