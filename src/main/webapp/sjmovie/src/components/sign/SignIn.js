@@ -14,8 +14,14 @@ export default function SignIn() {
         noValidate
         autoComplete="off"
       >
-        <TextField required size="small" className="login-input" id="filled-required" label="id" variant="standard" />
-        <TextField required size="small" className="login-input" label="password" variant="standard" />
+        <TextField size="small" className="login-input" id="filled-required" label="Email" variant="standard" />
+        <TextField
+          className="password-input"
+          label="Password"
+          type="password"
+          autoComplete="current-password"
+          variant="standard"
+        />
       </Box>
       <Button variant="outlined" className="login-btn">
         로그인

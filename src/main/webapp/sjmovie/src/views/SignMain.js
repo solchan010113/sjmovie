@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab'
 import { Tabs } from '@mui/material'
 import SignIn from '../components/sign/SignIn'
 import SignUp from '../components/sign/SignUp'
+import { Link } from 'react-router-dom'
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props
@@ -36,7 +37,9 @@ export default function SignMain() {
   }
   return (
     <div className="sign-container">
-      <img src={MovieLogo} />
+      <Link to="/">
+        <img src={MovieLogo} />
+      </Link>
       <div className="wrap">
         <Tabs className="tabs" value={value} onChange={handleChange} aria-label="tabs">
           <Tab label="로그인" tabIndex={0} {...a11yProps(0)} />

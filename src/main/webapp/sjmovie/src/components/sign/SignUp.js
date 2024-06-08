@@ -21,7 +21,7 @@ export default function SignUp() {
     <>
       <form id="sign-up-form" name="sign-up-form">
         <FormControl variant="standard">
-          <InputLabel htmlFor="standard-adornment-password">email</InputLabel>
+          <InputLabel htmlFor="standard-adornment-password">Email</InputLabel>
           <Input
             id="standard-adornment-password"
             type="email"
@@ -41,7 +41,7 @@ export default function SignUp() {
           autoComplete="current-password"
           variant="standard"
         />
-        <TextField required size="small" className="login-input" label="phone" variant="standard" />
+        <TextField size="small" className="login-input" label="Phone" variant="standard" />
         <LocalizationProvider dateAdapter={AdapterDayjs}>
           <DatePicker
             slotProps={{
@@ -81,7 +81,7 @@ export default function SignUp() {
             />
           </RadioGroup>
         </FormControl>
-        <Button variant="outlined" className="login-btn">
+        <Button variant="outlined" className="sign-up-btn">
           회원가입
         </Button>
       </form>
