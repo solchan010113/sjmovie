@@ -35,30 +35,94 @@
     height: 600px;
     //background-color: #393E46;
     margin: 0 auto;
-    overflow: hidden;
     z-index: 2;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
 
-    .movie-box {
-      width: 200px;
+    .movie-content-container {
+      width: 1100px;
       height: 370px;
-      float: left;
-      background-color: black;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: space-around;
+      position: relative;
 
-      h1 {
-        margin: 10px auto;
+      .movie-box {
+        width: 200px;
+        height: 355px;
+        float: left;
+
+        .like-btn {
+          width: 80px;
+          height: 35px;
+          color: white;
+          border: 1px solid #EEEEEE;
+        }
+
+        .reserved-btn {
+          margin-left: 5px;
+          width: 115px;
+          height: 35px;
+          color: white;
+          border: 2px solid dodgerblue;
+          background-color: dodgerblue;
+        }
+
+        h1 {
+          margin: 10px auto;
+        }
+
+        img {
+          width: 200px;
+          height: 300px;
+          margin: auto;
+          display: block;
+          border-radius: 2%;
+        }
+      }
+    }
+
+    .search-content-container {
+      margin-top: 20px;
+      width: 100%;
+      height: 70px;
+      //background-color: #10141e;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: space-around;
+      position: relative;
+
+      .search-content {
+        width: 275px;
+        height: 50px;
+        margin-top: 10px;
+        border-right: 2px solid #393E46;
+        float: left;
+
+        .search-input {
+          width: 235px;
+          margin: 0 auto;
+        }
+
+        #search-form {
+          input {
+            color: white;
+          }
+
+          label {
+            color: white;
+
+            &.Mui-focused {
+              color: dodgerblue;
+            }
+          }
+        }
       }
 
-      img {
-        width: 200px;
-        height: 300px;
-        margin: auto;
-        display: block;
-        border-radius: 2%;
+      .search-content:last-child {
+        border: none;
       }
     }
   }
